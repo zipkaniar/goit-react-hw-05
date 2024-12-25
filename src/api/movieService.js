@@ -5,8 +5,8 @@ export const getTrendingMovies = async () => {
   try {
     const response = await axiosInstance.get(trendingURL);
     return response.data;
-  } catch (eror) {
-    console.eror("Error fetching trending movies", error);
+  } catch (error) {
+    console.error("Error fetching trending movies", error);
     return [];
   }
 };

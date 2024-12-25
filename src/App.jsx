@@ -7,7 +7,7 @@ import MovieCast from "./components/MovieCast";
 import MovieReviews from "./components/MovieReviews";
 const HomePage = lazy(() => import("./pages/HomePage"));
 const MoviesPage = lazy(() => import("./pages/MoviesPage"));
-const MovieDetailPage = lazy(() => import ("./pages/MovieDDetailsPage"));
+const MovieDetailsPage = lazy(() => import ("./pages/MovieDetailsPage"));
 const NotFoundPage = lazy(() => import ("./pages/NotFountPage"));
 
 function App() {
